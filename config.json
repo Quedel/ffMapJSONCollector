@@ -1,0 +1,15 @@
+{
+    "datasources": {
+        "unifi-1": {
+            "url": "http://unifi-1.domain.de/data/",
+            "update": "http://unifi-2.domain.de/"
+        },
+        "unifi-2": {
+            "url": "http://unifi-2.domain.de/data/"
+        }
+    },
+    "mapviewer": "hopglass",
+    "nodelist": true,
+    "outdated-days": 10,
+    "debug": false
+}

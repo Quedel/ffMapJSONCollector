@@ -1,5 +1,8 @@
 <?php
 
+//for CLI: Set current dir to script dir
+chdir(dirname(__FILE__));
+
 require_once "ffMapJSONCollector.php";
 
 $collector = new ffMapJSONCollector();

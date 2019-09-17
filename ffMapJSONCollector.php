@@ -30,14 +30,14 @@ class ffMapJSONCollector {
 
 
         if($this->config['mapviewer'] == "hopglass") {
-            $this->outputJSON['nodes'] == null;
-            $this->outputJSON['graph'] == null;
+            $this->outputJSON['nodes'] = null;
+            $this->outputJSON['graph'] = null;
         }
         elseif($this->config['mapviewer'] == "meshviewer") {
-            $this->outputJSON['meshviewer'] == null;
+            $this->outputJSON['meshviewer'] = null;
         }
         if($this->config['nodelist']) {
-            $this->outputJSON['nodelist'] == null;
+            $this->outputJSON['nodelist'] = null;
         }
     }
 
